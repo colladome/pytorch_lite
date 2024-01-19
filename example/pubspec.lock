@@ -28,11 +28,12 @@ packages:
   camera:
     dependency: "direct main"
     description:
-      name: camera
-      sha256: f63f2687fb1795c36f7c57b18a03071880eabb0fd8b5291b0fcd3fb979cb0fb1
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.10.5+4"
+      path: "."
+      ref: main
+      resolved-ref: bd1d95fc9ada5ade394fb4e679bf168233ce2dbf
+      url: "https://github.com/colladome/camera.git"
+    source: git
+    version: "0.10.5+5"
   camera_android:
     dependency: transitive
     description:
@@ -469,7 +470,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "4.2.1"
+    version: "4.2.4"
   quiver:
     dependency: transitive
     description:
