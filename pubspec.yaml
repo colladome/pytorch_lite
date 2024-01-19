@@ -14,7 +14,10 @@ dependencies:
   path: ^1.8.0
   # ffi: ^2.0.1
   image: ^4.0.15
-  camera: ^0.10.5+2
+  camera:
+    git:
+      url: https://github.com/colladome/camera.git
+      ref: main
   # isolate_manager: ^4.0.0
   computer: ^3.2.1
   collection: ">1.0.0 <2.3.0"
